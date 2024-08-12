@@ -1,0 +1,11 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+    padding: 20px;
+}
+
+.MuiInputBase-root.form__input {
+    padding-left: 10px;
+}

@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Burger",
+      "price": 20
+    },
+    {
+      "id": "2",
+      "name": "Big Burger",
+      "price": 30
+    },
+    {
+      "id": "d937",
+      "name": "test",
+      "price": 12
+    },
+    {
+      "id": "c793",
+      "name": "test2",
+      "price": 10
+    },
+    {
+      "id": "4843",
+      "name": "test snack",
+      "price": 12
+    },
+    {
+      "id": "b90d",
+      "name": "sandwich",
+      "price": 10
+    }
+  ],
+  "modifiers": [
+    {
+      "id": "1",
+      "name": "Tomato",
+      "price": 3
+    },
+    {
+      "id": "2",
+      "name": "Cheese",
+      "price": 3
+    },
+    {
+      "id": "7252",
+      "name": "Onion",
+      "price": 2
+    }
+  ],
+  "bundles": [
+    {
+      "id": "1",
+      "name": "Combo with two burgers",
+      "productIds": [
+        1,
+        2
+      ],
+      "modifierIds": [],
+      "price": 40
+    },
+    {
+      "id": "1",
+      "name": "Supper burger",
+      "productIds": [
+        1
+      ],
+      "modifierIds": [
+        1,
+        2
+      ],
+      "price": 23
+    }
+  ]
+}
