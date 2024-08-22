@@ -1,7 +1,6 @@
-import React from 'react';
 import { Snackbar } from '@mui/material';
 import { useSelector, useDispatch } from 'react-redux';
-import { hideSnackbar } from '../../store/slice/snackbarSlice';
+import { hideSnackbar } from '@/store/slice/snackbarSlice';
 
 const GlobalSnackbar = () => {
   const dispatch = useDispatch();

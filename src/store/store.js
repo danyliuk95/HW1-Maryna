@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import { productsSlice } from './slice/productsSlice';
-import { modifiersSlice } from './slice/modifiersSlice';
-import { snackbarSlice } from './slice/snackbarSlice';
+import { productsSlice } from '@/store/slice/productsSlice';
+import { modifiersSlice } from '@/store/slice/modifiersSlice';
+import { snackbarSlice } from '@/store/slice/snackbarSlice';
 
 
 export const store = configureStore({

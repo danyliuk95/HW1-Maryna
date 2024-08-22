@@ -1,13 +1,13 @@
 import { useDispatch } from 'react-redux';
 import { useEffect, useState } from 'react';
-import { fetchProducts } from '../../store/slice/productsSlice';
-import { fetchModifiers } from '../../store/slice/modifiersSlice';
+import { fetchProducts } from '@/store/slice/productsSlice';
+import { fetchModifiers } from '@/store/slice/modifiersSlice';
 import { Box, Grid, Tab } from '@mui/material';
 import TabList from '@mui/lab/TabList';
 import { TabContext, TabPanel } from '@mui/lab';
-import ProductsList from './ProductsList';
-import ModifiersList from './ModifiersList';
-import OrderingList from './OrderingList';
+import ProductsList from '@/containers/Ordering/ProductsList/ProductsList';
+import ModifiersList from '@/containers/Ordering/ModifiersList/ModifiersList';
+import OrderingList from '@/containers/Ordering//OrderingList/OrderingList';
 
 const Ordering = () => {
   const dispatch = useDispatch()

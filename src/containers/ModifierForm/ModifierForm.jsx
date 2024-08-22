@@ -1,8 +1,8 @@
 import { useForm, Controller } from "react-hook-form"
 import { Button, TextField } from '@mui/material';
-import './index.css'
+import '@/containers/ProductForm/index.scss'
 import { useDispatch } from 'react-redux';
-import { postModifier } from '../../store/slice/modifiersSlice';
+import { postModifier } from '@/store/slice/modifiersSlice';
 
 const ModifierForm = () => {
   const { control, handleSubmit, formState: { errors } } = useForm({

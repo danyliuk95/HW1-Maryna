@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Grid, Paper, Typography } from '@mui/material';
-import { addModifier } from '../../../store/slice/productsSlice';
+import { addModifier } from '@/store/slice/productsSlice';
 
 const ModifiersList = () => {
   const dispatch = useDispatch();

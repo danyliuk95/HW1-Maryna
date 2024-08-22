@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
-import { showSnackbar } from './snackbarSlice';
+import { showSnackbar } from '@/store/slice/snackbarSlice';
 
 const initialState = {
   modifiers: [],

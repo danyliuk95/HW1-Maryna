@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Grid, Paper, Typography } from '@mui/material';
-import './index.css'
-import { selectProduct } from '../../../store/slice/productsSlice';
+import '@/containers/Ordering/ProductsList/index.scss'
+import { selectProduct } from '@/store/slice/productsSlice';
 
 const ProductsList = () => {
   const dispatch = useDispatch()

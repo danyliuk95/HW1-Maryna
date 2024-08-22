@@ -1,3 +1,9 @@
+How To Set up and Run:
+1. run `npm install`
+2. go to db folder and run `json-server db.json --watch --port 5001`
+3. run `npm run dev`
+
+Description:
 1. Створіть на вашому github репозиторій за наступним шаблоном HW#-name. Усі результати потрібно запушити у ваш репозиторій і створити пулл реквест.
 2. Створіть README.md з описом завдання.
 3. Підготовка

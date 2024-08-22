@@ -1,6 +1,6 @@
 import { useForm, Controller } from "react-hook-form"
 import { Button, TextField } from '@mui/material';
-import './index.css'
+import './index.scss'
 import { useDispatch } from 'react-redux';
 import { postProduct } from '../../store/slice/productsSlice';
 
