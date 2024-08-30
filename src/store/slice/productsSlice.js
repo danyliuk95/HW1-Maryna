@@ -1,6 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { showSnackbar } from '@/store/slice/snackbarSlice';
+import { BASE_URL } from '@/shared/utilities';
 
 const initialState = {
   products: [],
@@ -13,7 +14,7 @@ const initialState = {
 export const fetchProducts = createAsyncThunk(
   'products/fetchProducts',
   async () => {
-    const res = await axios('http://localhost:5001/products')
+    const res = await axios(`${BASE_URL}/products`)
     return await res.data
   }
 );
@@ -23,7 +24,7 @@ export const postProduct = createAsyncThunk(
   async (data, { dispatch }) => {
     const res = await axios({
       method: 'post',
-      url:'http://localhost:5001/products',
+      url: `${BASE_URL}/products`,
       data: {name: data.name, price: +data.price}
     });
     dispatch(showSnackbar('Product created'));

@@ -8,3 +8,5 @@ export const ROUTES = {
   CREATE_PRODUCT: '/create-product',
   CREATE_MODIFIER: '/create-modifier',
 };
+
+export const BASE_URL = 'http://localhost:5001';
