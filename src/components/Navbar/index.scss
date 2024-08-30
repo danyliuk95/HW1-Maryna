@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+}
+
+.navbar__button a {
+    text-decoration: none;
+    font-size: 22px;
+}

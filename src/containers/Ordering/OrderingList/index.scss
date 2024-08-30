@@ -1,0 +1,34 @@
+.MuiPaper-root.paper {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.MuiPaper-root.paper.clicked-product {
+    background-color: #7474e5;
+    color: white;
+}
+
+.MuiPaper-root.paper.clicked-product .remove-button {
+    color: white;
+}
+
+.paper-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MuiPaper-root.MuiPaper-elevation.paper-sum {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 15px;
+}
+
+.paper-finish {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+}
